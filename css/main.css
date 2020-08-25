@@ -1,0 +1,235 @@
+/***** BASE STYLES *****/
+
+
+/***** BODY *****/
+html body {
+	margin: 0;
+}
+
+body { 
+	color: black;
+	font-family: 'Laila', serif;
+}
+
+
+/***** GRID *****/
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1200px;
+}
+
+.half-width {
+	float: left;
+	margin: 0 auto;
+	overflow: auto;
+	width: 600px;
+}
+
+.third-width {
+	float: left;
+	margin: 0 auto;
+	overflow: auto;
+	width: 400px;
+}
+
+/***** HEADER *****/
+
+/***
+
+***/
+
+header .full-width {
+	padding-bottom: 80px;
+	width: 100%;
+}
+
+nav {
+	float: right;
+	padding: 25px 75px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #6610f2;
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+header .half-width {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+	font-size: 48px;
+	padding: 150px 200px 0;
+}
+
+header h1 span {
+	color: #6610f2;
+}
+
+header h2 {
+	font-size: 32px;
+	padding: 0 200px;
+	text-align: justify;
+}
+
+
+/***** About *****/
+
+#about .full-width {
+	background-color: #1a8fe3;
+	margin: auto;
+	padding: 100px 0;
+	width: 100%;
+}
+
+#about h2 {
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+ #about img.profile-img {
+	border: 3px solid #ffffff;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#about p {
+	color: white;
+	text-align: center;
+}
+
+
+/***** WORK *****/
+
+/*** 
+I need to add links to all the images
+I need to create new pages to send the links to
+***/
+
+#work .full-width {
+	padding: 100px;
+}
+
+
+#work h2 {
+	font-weight: 600;
+	text-align: center;
+}
+
+#work .third-width {
+
+}
+
+#work img.thumbnail {
+	border: 5px solid #e6c229;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	padding: 0;
+	width: 300px;
+}
+
+#work img#design-img {
+	height: 306px;
+}
+
+/***
+
+
+***/
+
+
+#work h3 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/***** Contact *****/
+
+#contact .contact-info {
+	position: relative;
+}
+
+#contact .full-width {
+	background-color: #1a8fe3;
+	padding: 100px 0;
+	width: 100%;
+}
+
+
+#contact h2 {
+	color: #ffffff;
+	font-size: 24px;
+	text-align: center;
+
+}
+
+#contact p {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+
+}
+
+#contact p a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+#contact .social-media {
+	margin: 0 auto;
+	width: 100%;
+}
+/*add text-align to the wrapper*/
+.social-media {
+	text-align: center;
+}
+
+#contact ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+#contact ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+#contact #envelope #linkedin #github img .icon {
+	height: 20px;
+	width: 20px;
+	
+
+}
+
+/***** FOOTER *****/
+
+footer .full-width {
+	background-color: #1a8fe3;
+	color:#ffffff;
+	text-align: center;
+	width: 100%;
+}
+
+
