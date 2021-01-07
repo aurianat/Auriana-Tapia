@@ -124,7 +124,7 @@ I need to create new pages to send the links to
 ***/
 
 #work .full-width {
-	padding: 100px;
+	/*padding: 100px;*/
 }
 
 
@@ -160,6 +160,11 @@ I need to create new pages to send the links to
 #work h3 {
 	margin: 0 auto;
 	text-align: center;
+}
+
+#work a {
+	color: black;
+	text-decoration: none;
 }
 
 
@@ -201,7 +206,9 @@ I need to create new pages to send the links to
 	margin: 0 auto;
 	width: 100%;
 }
+
 /*add text-align to the wrapper*/
+
 .social-media {
 	text-align: center;
 }
@@ -231,5 +238,66 @@ footer .full-width {
 	text-align: center;
 	width: 100%;
 }
+
+
+/***** Portfolio page *****/
+
+
+
+/***** Blog Page *****/
+.home-page {
+	color: #6610f2;
+	font-size: 32px;
+	margin-bottom: 0;
+	padding: 0px 50px 0px 50px;
+	text-align: left;
+}
+
+#blogs a {
+	text-decoration: none;
+}
+
+.blog-header {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#blog-page-banner {
+	background-color: #1a8fe3;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+}
+.page-description  {
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	padding: 0px;
+}
+
+.blog-post {
+	margin: 0 auto;
+	padding: 50px 100px 0 100px;
+}
+
+.blog-img {
+	border: 5px solid #e6c229;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px;
+	padding: 0;
+	width: 600px;
+}
+
+.blog-img-description {
+	font-size: 18px;
+	padding: 25px 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/***** Graphic design Page *****/
+
 
 
